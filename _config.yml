@@ -21,9 +21,7 @@
 title: Your awesome title
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This archive presents users with the wonderful stories of Marco Polo, an outstanding historical figure, traveling in China, and records what he saw and heard in various regions of China. The structure of this website includes introduction to the original works, introduction to Marco Polo, travel stories, disputes and references. This archive is mainly for historians, travel enthusiasts or academic researchers to provide them with valuable digital assets.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
