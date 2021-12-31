@@ -5,14 +5,20 @@
 title:  Macro Polo China Tour
 layout: index
 ---
-What kinds of research could people do using the information in Hansard as a resource?
 
-{% for exhibit in site.exhibits %}
+{% for exhibit in site.Macro Polo Portrait %}
 
 <img src="{{ exhibit.image-url }}"  width = 256> 
 <p>{{ exhiibit.title }} by {{ exhibit.creator }}</p>
-<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a></>
+<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
+Macro Polo (1254~1324)
 
+{% for exhibit in site.Macro Polo Route %}
+
+<img src="{{ exhibit.image-url }}"  width = 500> 
+<p>{{ exhiibit.title }} by {{ exhibit.creator }}</p>
+<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
+Route of Macro Polo
 
 {% endfor %}
 
