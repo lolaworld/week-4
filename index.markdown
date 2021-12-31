@@ -7,6 +7,11 @@ layout: index
 ---
 What kinds of research could people do using the information in Hansard as a resource?
 
+{% for exhibit in site.exhibits %}
+
+<p>{{ exhiibit.title }} </p>
+
+{% endfor %}
 - Hansard collects members of parliament speak and debates and political officials are easy to search and check relevant expression of one's political views.
 - Citizens learn about latest policy trend by substantially verbatim report released on Hansard，and adjust household investment.
 - Hansard online is an ongoing project involving the Commons and Lords Hansards and the Parliamentary Digital Service. When the site was first launched, it offered content from 2010 to the present day. This integrated source library provides detailed real-time info to make a profound study such as background of major population or economic policy-making.
