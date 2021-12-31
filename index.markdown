@@ -2,7 +2,8 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: 
+title:  Macro Polo China Tour
+layout: index
 ---
 What kinds of research could people do using the information in Hansard as a resource?
 
