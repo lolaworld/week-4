@@ -11,6 +11,7 @@ layout: index
 <img src="{{ exhibit.image-url }}"  width = 600 height = 500> 
 <p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
 <p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
+<p>{{ exhibit.description }}</p>
 
 
 
