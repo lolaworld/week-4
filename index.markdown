@@ -6,19 +6,13 @@ title:  Macro Polo China Tour
 layout: index
 ---
 
-{% for exhibit in site.Macro Polo Portrait %}
+{% for exhibit in site.exhibits %}
 
 <img src="{{ exhibit.image-url }}"  width = 256> 
 <p>{{ exhiibit.title }} by {{ exhibit.creator }}</p>
 <p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
-Macro Polo (1254~1324)
 
-{% for exhibit in site.Macro Polo Route %}
 
-<img src="{{ exhibit.image-url }}"  width = 500> 
-<p>{{ exhiibit.title }} by {{ exhibit.creator }}</p>
-<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
-Route of Macro Polo
 
 {% endfor %}
 
