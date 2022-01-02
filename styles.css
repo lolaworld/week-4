@@ -1,0 +1,17 @@
+#header{
+    width: 100%;
+    background: #000000;
+    height: 60px;
+    line-height: 60px;
+    text-align: right;
+}
+#header nav{
+    margin-right: 50px;
+}
+
+#header nav a{
+    padding: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
