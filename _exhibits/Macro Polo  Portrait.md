@@ -2,7 +2,10 @@
 title: Macro Polo Portrait(1254~1324)
 creator: Salviati
 licence: PD-US	
-description: Marco Polo from Italian was a Venetian merchant, explorer, and writer who travelled through Asia along the Silk Road between 1271 and 1295. His travels are recorded in The Travels of Marco Polo (also known as Book of the Marvels of the World and Il Milione, c. 1300), a book that described to Europeans the then mysterious culture and inner workings of the Eastern world, including the wealth and great size of the Mongol Empire and China in the Yuan Dynasty, giving their first comprehensive look into China, Persia, India, Japan and other Asian cities and countries.
-licence-url : https://commons.wikimedia.org/wiki/File:Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
+description:Born in Venice, Marco Polo was a businessman, explorer and writer who crossed Asia along the Silk Road from 1271 to 1295. His travels are recorded in the travels of Marco Polo. This book describes the mysterious culture and internal operation of the eastern world at that time, including the wealth and huge scale of Mongolia Empire and Yuan Dynasty, so that they can have a comprehensive understanding of Asian cities and countries such as China, Persia, India and Japan for the first time.
+In 1266, Marco Polo and others were received by Kublai Khan. Because of his wisdom and humility, they were soon appointed as foreign envoys of Khan and sent to the whole empire and many diplomatic missions in Southeast Asia. As part of this appointment, Marco Polo traveled extensively in China, lived on the land of the emperor for 17 years, and saw many things that Europeans did not know before.
+Although he was not the first European to arrive in China, Marco Polo was the first to leave a detailed experience. This record about the East gives Europeans a clear understanding of the geography and national customs of Eastern countries, especially China.
+licence-url : https://commons.wikimedia.org/wiki/, https://en.wikipedia.org/wiki/Marco_Polo#Narrative
+File:Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
 image-url:  https://upload.wikimedia.org/wikipedia/commons/b/b0/Marco_Polo_Mosaic_from_Palazzo_Tursi.jpg
 ---
