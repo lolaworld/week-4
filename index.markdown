@@ -7,32 +7,15 @@ layout: index
 ---
 
 
-<div>
-     <ul>
-{% for exhibit in site.exhibits.portrait %}
 
-<img src="{{ exhibit.image-url }}"  width = 500 height = 500> 
-<p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
-<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
-<p>{{ exhibit.description }}</p>
-       </ul>
+{% for exhibit in site.exhibits %}
 
-</div>
-
-
-   
-
-{% for exhibit in site.exhibits.route %}
-<div>
-    
-
-<img src="{{ exhibit.image-url }}"  width = 600 height = 600> 
+<img src="{{ exhibit.image-url }}"  width = 600 height = 500> 
 <p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
 <p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
 <p>{{ exhibit.description }}</p>
 
-  
+       
 
-</div>
 
 {% endfor %}
