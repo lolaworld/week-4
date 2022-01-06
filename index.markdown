@@ -6,7 +6,18 @@ title:  Macro Polo China Tour
 layout: index
 ---
 
-{% for exhibit in site.exhibits %}
+# Macro Polo China Tour
+<div>
+     <ul>
+{% for exhibit in site.exhibits.Macro Polo Portrait %}
+
+<img src="{{ exhibit.image-url }}"  width = 600 height = 500> 
+<p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
+<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
+<p>{{ exhibit.description }}</p>
+
+
+{% for exhibit in site.exhibits.Macro Polo Portrait %}
 
 <img src="{{ exhibit.image-url }}"  width = 600 height = 500> 
 <p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
