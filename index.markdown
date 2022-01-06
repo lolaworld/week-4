@@ -24,19 +24,15 @@ layout: index
 
 {% for exhibit in site.exhibits.route %}
 <div>
-     <ul>
+    
 
 <img src="{{ exhibit.image-url }}"  width = 600 height = 600> 
 <p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
 <p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
 <p>{{ exhibit.description }}</p>
 
-         </ul>
+  
 
 </div>
 
 {% endfor %}
-  
-
-
-
