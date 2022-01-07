@@ -8,14 +8,16 @@ layout: index
 
 
 
+
+
+
 {% for exhibit in site.exhibits %}
 
-<img src="{{ exhibit.image-url }}"  width = 600 height = 500> 
+<img src="{{ exhibit.image-url }}"  width = 700 height = 500> 
 <p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
 <p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
 <p>{{ exhibit.description }}</p>
+  {% endfor %}
 
-       
 
-
-{% endfor %}
+ 
