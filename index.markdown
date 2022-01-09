@@ -10,14 +10,21 @@ layout: index
 
 
 
-
-{% for exhibit in site.exhibits %}
-
-<img src="{{ exhibit.image-url }}"  width = 700 height = 500> 
-<p>{{ exhibit.title }} by {{ exhibit.creator }}</p>
-<p><a href="{{ exhibit.licence-url }}">{{ exhibit.licence }}</a>
-<p>{{ exhibit.description }}</p>
+<div id = "home">
+  {% assign sorted_exhibits = site.exhibits | sort: "date" %}
+  {% for exhibit in sorted_exhibits %}
+    {% assign licence_url = site.data.licences | find: "licence", exhibit.licence %}
+    {% assign creator = site.data.creators | find: "name", exhibit.creator %}
+    <div class = "item">
+      <a href = "{{ exhibit.url }}"><img src="{{ exhibit.image-url }}" class="home_thumb"></a>
+      <div class="info">
+      <p class = "caption"><a href = "{{ exhibit.url }}">{{ exhibit.title }}</a> by <a href = "{{ creator.homepage }}">{{ exhibit.creator }}</a></p>
+      <p><a href="{{ licence_url.url }}">{{ exhibit.licence }}</a></p>
+      <p class="desc">{{ exhibit.description }}</p>
+      </div>
+    </div>
   {% endfor %}
+</div>
 
 
  

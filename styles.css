@@ -44,3 +44,27 @@ a:hover {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+#home {
+    margin: 0 auto;
+    width: 1180px;
+    background: #fff;
+    box-shadow: 0px 0px 10px #9593937a;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.item {
+    align-self: baseline;
+    text-align: center;
+
+}
+
+.item .desc {
+    text-align: left;
+    word-break: break-all;
+    text-indent: 2rem;
+    line-height: 1.7;
+    padding: 1rem;
+    color: #666;
+}
