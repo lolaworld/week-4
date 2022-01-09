@@ -180,4 +180,4 @@ sans faille la plus noble cité et la
 meillor qe soit au monde.”
 </p>
 </div>
-<p>And I must tell you that every hosteler who keeps an hostel for travellers is bound to register their names and surnames, as well as the day and month of their arrival and departure.Thus, the sovereign hath the means of knowing, whenever it pleases him, who come and go throughout his dominions. And certes this is a wise order and a provident.</p>
+<p>And I must tell you that every hosteler who keeps an hostel for travellers is bound to register their names and surnames, as well as the day and month of their arrival and departure. Thus, the sovereign hath the means of knowing, whenever it pleases him, who come and go throughout his dominions. And certes this is a wise order and a provident.</p>
