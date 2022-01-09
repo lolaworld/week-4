@@ -18,13 +18,32 @@
         </nav> -->
         <div id = "header">
             <nav>
-                <a href="{{ site.baseurl }}/">Gallery</a>
-                <a href="{{ site.baseurl }}/Travel Trace in China ">Travel Trace in China </a>
-                <a href="{{ site.baseurl }}/Important People">Important People</a>
-                <a href="{{ site.baseurl }}/Controversy">Controversy</a>
-                <a href="{{ site.baseurl }}/Search">Search</a>
-                <a href="{{ site.baseurl }}/References">References</a>
-            
+                <ul>
+                    <li><a href="{{ site.baseurl }}/">Gallery</a></li>
+                    <li class="children">
+                      <a href="{{ site.baseurl }}/Travel Trace in China "
+                        >Travel Trace in China
+                      </a>
+          
+                      <ul>
+                        <li><a href="{{ site.baseurl }}/North China">North China</a></li>
+                        <li><a href="{{ site.baseurl }}/West China">West China</a></li>
+                        <li><a href="{{ site.baseurl }}/South China">South China</a></li>
+                        <li><a href="{{ site.baseurl }}/East China">East China</a></li>
+                      </ul>
+                    </li>
+          
+                    <li class="children">
+                      <a href="{{ site.baseurl }}/Important People">Important People</a>
+          
+                      <ul>
+                        <li><a href="{{ site.baseurl }}/Kublai">Kublai</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="{{ site.baseurl }}/Controversy">Controversy</a></li>
+                    <li><a href="{{ site.baseurl }}/Search">Search</a></li>
+                    <li><a href="{{ site.baseurl }}/References">References</a></li>
+                  </ul>
             </nav>
         </div>
     </div>

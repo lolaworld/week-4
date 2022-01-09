@@ -38,12 +38,47 @@ a:hover {
     margin-right: 50px;
 }
 
-#header nav a{
+
+#header nav ul {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header nav ul li {
+    display: inline-block;
+}
+
+#header nav ul li a {
     padding: 0 15px;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.children {
+    position: relative;
+}
+
+.children:hover ul {
+    display: block;
+}
+
+.children ul {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    z-index: 9999;
+    background: #000;
+    padding: 0;
+}
+
+.children ul li {
+    display: block;
+    width: 100%;
+}
+
+
 
 #home {
     margin: 0 auto;
