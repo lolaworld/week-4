@@ -17,7 +17,15 @@ a:hover {
     font-size: larger;
 }
 
+#illustration {
+   text-align: center;
 
+}
+#note{
+    font-style: italic;
+    color: brown;
+    
+}
     
 #header{
     width: 100%;
