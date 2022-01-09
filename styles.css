@@ -11,7 +11,7 @@ h1 {
 a { color: grey;}
 
 a:hover {
-    color: black;
+    color: rgb(61, 58, 19);
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: larger;
@@ -24,9 +24,8 @@ a:hover {
 #note{
     font-style: italic;
     color: brown;
-    
-}
-    
+
+#K {}
 #header{
     width: 100%;
     background: #000000;
