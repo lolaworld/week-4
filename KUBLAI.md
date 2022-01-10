@@ -1,9 +1,27 @@
 ---
 layout: index
-title: IMPORTANT FIGURE IN CHINA 
+title: KUBLAI
 
 
 ---
+
+# Reaching Kublai Khan’s court
+<p>The Polos reached Kublai Khan’s summer residence Shant-tu in May 1275. Kublai Khan new that they were on their way, and had sent a royal escort to greet them. Shant-tu was the original capital of Kublai Khan’s reign, but was as this point only used in the summers, since Kublai Khan had started spending the winters in Beijing (Cambaluc).</p>
+
+# Marco Polo writes in great detail about his first meeting with Kublai Khan.
+
+<p> “They knelt before him and made obeisance with the utmost humility. The Great Khan bade them rise and received them honorably and entertained them with good cheer. He asked many questions about their condition and how they fared after their departure. The brothers assured him that they had indeed fared well, since they found him well and flourishing. Then they presented the privileges and letters which the Pope had sent, with which he was greatly pleased, and handed over the holy oil, which he received with joy and prized very hightly. When the Great Khan saw Marco, who was then a young stripling, he asked who he was. ‘Sir’ said Messer Niccolo, ‘he is my son and your liege man.’ ‘He is heartly welcome,’ said the Khan. What need to make a long story of it? Great indeed were the mirth and merry-making with which the Great khan and all his Court welcomed the arrival of these emissaries. And they were well served and attended to in all their needs. They stayed at Court and had a place of honor above the other barons.”</p>
+<div id="K">
+<p> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Kublai_Khan_and_His_Empress_Enthroned.jpg"></p>
+
+<p>
+<a href="https://commons.wikimedia.org/wiki/File:Kublai_Khan_and_His_Empress_Enthroned.jpg"> “Kublai Khan and His Empress Enthroned" </a> by Jami (d. 1492), Kesu Kalan</p>
+<p>
+<a href="https://commons.wikimedia.org/wiki/Template:PD-US"> “{PD-US}}" </a></p>
+</div>
+
+# Years in the service of the Kublai Khan
+<p>Kublai Khan took a liking to the young Marco Polo and appointed him to high posts in his administration. Already well-traveled and capable of speaking several different languages, Polo was sent by the Khan on a number of special missions to various places in China, Burma, and India. Many of the places that Marco Polo visited during these missions were remote ones that no European would visit and write about again until the 19th century.</p>
 
 # Khan's Military Activities and Territorial Expansion
 ## Concerning Great Turkey
