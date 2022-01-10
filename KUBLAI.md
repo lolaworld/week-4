@@ -53,7 +53,9 @@ title: KUBLAI
 
 <p>They have also pearls in abundance, which are of a rose colour, but fine, big, and round, and quite as valuable as the white ones. [In this Island some of the dead are buried, and others are burnt. When a body is burnt, they put one of these pearls in the mouth, for such is their custom.] They have also quantities of other precious stones.</p>
 <p>Cublay, the Grand Kaan who now reigneth, having heard much of the immense wealth that was in this Island, formed a plan to get possession of it. For this purpose he sent two of his Barons with a great navy, and a great force of horse and foot. These Barons were able and valiant men, one of them called Abacan and the other Vonsainchin, and they weighed with all their company from the ports of Zayton and Kinsay, and put out to sea. They sailed until they reached the Island aforesaid, and there they landed, and occupied the open country and the villages, but did not succeed in getting possession of any city or castle. And so a disaster befel them, as I shall now relate.</p>
-<<<<<<< HEAD
+
+<p>You must know that there was much ill-will between those two Barons, so that one would do nothing to help the other. And it came to pass that there arose a north wind which blew with great fury, and caused great damage along the coasts of that Island, for its harbours were few. It blew so hard that the Great Khan’s fleet could not stand against it. And when the chiefs saw that, they came to the conclusion that if the ships remained where they were the whole navy would perish. So they all got on board and made sail to leave the country. But when they had gone about four miles they came to a small Island, on which they were driven ashore in spite of all they could do; and a large part of the fleet was wrecked, and a great multitude of the force perished, so that there escaped only some 30,000 men, who took refuge on this Island.</p>
+<p>These held themselves for dead men, for they were without food, and knew not what to do, and they were in great despair when they saw that such of the ships as had escaped the storm were making full sail for their own country256 without the slightest sign of turning back to help them. And this was because of the bitter hatred between the two Barons in command of the force; for the Baron who escaped never showed the slightest desire to return to his colleague who was left upon the Island in the way you have heard; though he might easily have done so after the storm ceased; and it endured not long. He did nothing of the kind, however, but made straight for home. And you must know that the Island to which the soldiers had escaped was uninhabited; there was not a creature upon it but themselves.</p>
 
 ## COLLECTIONS
 <div id = "collection">
@@ -63,12 +65,7 @@ title: KUBLAI
 <li>{{ election.article }} written by {{ election.author}} is published by {{ winner.press }} in {{ election.year}}</li>
 
 
-
 {% endfor %}
  </ul>
 </div>
     
-=======
-<p>You must know that there was much ill-will between those two Barons, so that one would do nothing to help the other. And it came to pass that there arose a north wind which blew with great fury, and caused great damage along the coasts of that Island, for its harbours were few. It blew so hard that the Great Khan’s fleet could not stand against it. And when the chiefs saw that, they came to the conclusion that if the ships remained where they were the whole navy would perish. So they all got on board and made sail to leave the country. But when they had gone about four miles they came to a small Island, on which they were driven ashore in spite of all they could do; and a large part of the fleet was wrecked, and a great multitude of the force perished, so that there escaped only some 30,000 men, who took refuge on this Island.</p>
-<p>These held themselves for dead men, for they were without food, and knew not what to do, and they were in great despair when they saw that such of the ships as had escaped the storm were making full sail for their own country256 without the slightest sign of turning back to help them. And this was because of the bitter hatred between the two Barons in command of the force; for the Baron who escaped never showed the slightest desire to return to his colleague who was left upon the Island in the way you have heard; though he might easily have done so after the storm ceased; and it endured not long. He did nothing of the kind, however, but made straight for home. And you must know that the Island to which the soldiers had escaped was uninhabited; there was not a creature upon it but themselves.</p>
->>>>>>> 627b39708f09ec24c336b333924b3774aa4d454b
