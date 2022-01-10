@@ -9,10 +9,11 @@ title: KUBLAI
 <p>The Polos reached Kublai Khan’s summer residence Shant-tu in May 1275. Kublai Khan new that they were on their way, and had sent a royal escort to greet them. Shant-tu was the original capital of Kublai Khan’s reign, but was as this point only used in the summers, since Kublai Khan had started spending the winters in Beijing (Cambaluc).</p>
 
 # Marco Polo writes in great detail about his first meeting with Kublai Khan.
-
+<div id = "note">
 <p> “They knelt before him and made obeisance with the utmost humility. The Great Khan bade them rise and received them honorably and entertained them with good cheer. He asked many questions about their condition and how they fared after their departure. The brothers assured him that they had indeed fared well, since they found him well and flourishing. Then they presented the privileges and letters which the Pope had sent, with which he was greatly pleased, and handed over the holy oil, which he received with joy and prized very hightly. When the Great Khan saw Marco, who was then a young stripling, he asked who he was. ‘Sir’ said Messer Niccolo, ‘he is my son and your liege man.’ ‘He is heartly welcome,’ said the Khan. What need to make a long story of it? Great indeed were the mirth and merry-making with which the Great khan and all his Court welcomed the arrival of these emissaries. And they were well served and attended to in all their needs. They stayed at Court and had a place of honor above the other barons.”</p>
-<div id="K">
-<p> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Kublai_Khan_and_His_Empress_Enthroned.jpg"></p>
+</div>
+<div id= "illustration" >
+<p> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Kublai_Khan_and_His_Empress_Enthroned.jpg" width= 500 height= 400></p>
 
 <p>
 <a href="https://commons.wikimedia.org/wiki/File:Kublai_Khan_and_His_Empress_Enthroned.jpg"> “Kublai Khan and His Empress Enthroned" </a> by Jami (d. 1492), Kesu Kalan</p>
@@ -44,10 +45,25 @@ title: KUBLAI
 <p>Chipangu is an Island towards the east in the high seas, 1500 miles distant from the Continent; and a very great Island it is.</p>
 <p>The people are white, civilized, and well-favoured. They are Idolaters, and are dependent on nobody. And I can tell you the quantity of gold they have is endless; for they find it in their own Islands, [and the King does not allow it to be exported. Moreover] few merchants visit the country because it is so far from the main land, and thus it comes to pass that their gold is abundant beyond all measure.</p>
 <p>I will tell you a wonderful thing about the Palace of the Lord of that Island. You must know that he hath a great Palace which is entirely roofed with fine gold, just as our churches are roofed with lead, insomuch that it would scarcely be possible to estimate its value. Moreover, all the pavement of the Palace, and the floors of its chambers, are entirely of gold, in plates like slabs of stone, a good two fingers thick; and the windows also are of gold, so that altogether the richness of this Palace is past all bounds and all belief.</p>
-</div>
+
 <div id = "illustration">
 <img src= "https://www.gutenberg.org/cache/epub/12410/images/i254.jpg" width= 400 height= 350 >
 <p>Ancient Japanese Emperor. (After a Native Drawing; from Humbert.)</p>
 </div>
+
 <p>They have also pearls in abundance, which are of a rose colour, but fine, big, and round, and quite as valuable as the white ones. [In this Island some of the dead are buried, and others are burnt. When a body is burnt, they put one of these pearls in the mouth, for such is their custom.] They have also quantities of other precious stones.</p>
 <p>Cublay, the Grand Kaan who now reigneth, having heard much of the immense wealth that was in this Island, formed a plan to get possession of it. For this purpose he sent two of his Barons with a great navy, and a great force of horse and foot. These Barons were able and valiant men, one of them called Abacan and the other Vonsainchin, and they weighed with all their company from the ports of Zayton and Kinsay, and put out to sea. They sailed until they reached the Island aforesaid, and there they landed, and occupied the open country and the villages, but did not succeed in getting possession of any city or castle. And so a disaster befel them, as I shall now relate.</p>
+
+## COLLECTIONS
+<div id = "collection">
+<ul>
+{% for election in site.data.Kublai %}
+{% assign winner = site.data.Press | find: "article", election.article %}
+<li>{{ election.article }} written by {{ election.author}} is published by {{ winner.press }} in {{ election.year}}</li>
+
+
+
+{% endfor %}
+ </ul>
+</div>
+    
