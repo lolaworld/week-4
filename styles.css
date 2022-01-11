@@ -1,42 +1,53 @@
 body {
-    background-color: azure;
-    color: black
-    
-    
+    background-color: #f5f5f5;
+    color: black;
+    padding: 0;
+    margin: 0;
+   
 }
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+}
+
 h1 {
     color: black;
 }
 
-a { color: grey;}
+a {
+    color: grey;
+}
 
 a:hover {
-    color: rgb(61, 58, 19);
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: larger;
+    color: black;
 }
 
 #illustration {
-   text-align: center;
+    text-align: center;
 
 }
-#note{
+
+#note {
     font-style: italic;
     color: brown;
 
-#k{}
-#header{
-    width: 100%;
+}
+
+#header {
+    width: 1220px;
     background: #000000;
     height: 60px;
     line-height: 60px;
     text-align: center;
-}
-#header nav{
-    margin-right: 50px;
+    margin: 0 auto;
 }
 
+#header nav {
+    margin-right: 50px;
+}
 
 #header nav ul {
     width: 100%;
@@ -77,24 +88,102 @@ a:hover {
     width: 100%;
 }
 
+.logo {
+    background: url(https://www.oldbaileyonline.org/graphics/logo.gif)
+}
 
-
-#home {
+.banner {
+    background: url(https://www.oldbaileyonline.org/graphics/Turners_London_c1810_histbackground.jpg) no-repeat;
+    height: 120px;
+    width: 1220px;
     margin: 0 auto;
+    background-size: cover;
+}
+
+footer {
+    height: 120px;
+    width: 1220px;
+    background-color: #151515;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+}
+
+footer .copy-right {
+    color: #fff;
+    padding-left: 40px;
+}
+
+.search-box {
     width: 1180px;
+    margin: 0 auto;
     background: #fff;
-    box-shadow: 0px 0px 10px #9593937a;
-    margin-top: 20px;
     padding: 20px;
 }
 
-.item {
+.search-box p {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.search-box #search-input {
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.search-box #search-input:focus {
+    border: 1px solid #000;
+}
+
+.search-box #results-container {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-box #results-container li a {
+    color: #666;
+    display: block;
+    border-bottom: 1px solid #f5f5f5;
+    text-decoration: none;
+    padding: 13px;
+    text-transform: uppercase;
+    transition: all 2s linear;
+}
+
+.search-box #results-container li a:hover {
+    color: #000;
+    padding-left: 7px;
+}
+
+#home {
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    grid-gap: 2.4rem;
+}
+
+.home_cell {
     align-self: baseline;
     text-align: center;
+    border: 1px solid #f5f5f5;
+    padding: 10px;
+    transition: all .2s linear;
 
 }
 
-.item .desc {
+.home_cell:hover {
+    box-shadow: 0px 1px 11px 3px #ededed;
+    cursor: pointer;
+}
+
+.home_cell:hover .gallery_thumb {
+    transform: scale(1.01);
+}
+
+.home_cell .desc {
     text-align: left;
     word-break: break-all;
     text-indent: 2rem;
@@ -103,7 +192,68 @@ a:hover {
     color: #666;
 }
 
-#collection
-{color: black;
+.home_cell .gallery_thumb {
+    width: 100%;
+    transition: all 0.5s linear;
+}
 
+.home_cell .info {
+    text-align: left;
+}
+
+.home_cell .info .caption .author {
+    color: #838383;
+    display: block;
+    font-size: 13px;
+}
+
+.home_cell .info .caption .title {
+    color: #000;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.home_cell .info .licence a {
+    color: #666;
+    font-size: 13px;
+    transition: all .3s linear;
+}
+
+.home_cell .info .licence a:hover {
+    color: #000;
+    padding-left: 3px;
+}
+
+.kublai {}
+
+.kublai .lists {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.kublai .lists .item {
+    line-height: 2;
+    border-bottom: 1px solid #f5f5f5;
+    margin-bottom: 20px;
+    padding: 3px 10px 20px;
+}
+
+.kublai .lists .item .title {
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.kublai .lists .item .author {
+    padding: 0 20px;
+    color: #777;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.kublai .lists .item .year {
+    color: #777;
+    font-size: 13px;
 }

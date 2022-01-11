@@ -2,52 +2,53 @@
 ---
 
 <head>
-    <meta charset="uft-8"> 
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+  <meta charset="uft-8" />
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ site.baseurl }}/styles.css" />
 </head>
 <body>
-    <div class="container">
-        <!-- <nav>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-            <a href="{{ site.baseurl }}/">Macro Polo China Tour</a>
-        </nav> -->
-        <div id = "header">
-            <nav>
-                <ul>
-                    <li><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li class="children">
-                      <a href="{{ site.baseurl }}/Travel Trace in China "
-                        >Travel Trace in China
-                      </a>
-          
-                      <ul>
+  <div class="head">
+
+    <div class="logo"></div>
+    <div id="header">
+      <nav>
+        <ul>
+          <li><a href="{{ site.baseurl }}/">Gallery</a></li>
+          <li class="children">
+            <a href="{{ site.baseurl }}/Travel Trace in China "
+              >Travel Trace in China
+            </a>
+
+             <ul>
                         <li><a href="{{ site.baseurl }}/North China">North China</a></li>
                         <li><a href="{{ site.baseurl }}/West China">West China</a></li>
                         <li><a href="{{ site.baseurl }}/South China">South China</a></li>
                         <li><a href="{{ site.baseurl }}/East China">East China</a></li>
                       </ul>
                     </li>
-          
-                    <li class="children">
-                      <a href="{{ site.baseurl }}/Important People">Important People</a>
-          
-                      <ul>
-                        <li><a href="{{ site.baseurl }}/Kublai">Kublai</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="{{ site.baseurl }}/Controversy">Controversy</a></li>
-                    <li><a href="{{ site.baseurl }}/Search">Search</a></li>
-                    <li><a href="{{ site.baseurl }}/References">References</a></li>
-                  </ul>
-            </nav>
-        </div>
+
+          <li class="children">
+            <a href="{{ site.baseurl }}/Important People">Important People</a>
+
+            <ul>
+              <li><a href="{{ site.baseurl }}/Kublai">Kublai</a></li>
+            </ul>
+          </li>
+          <li><a href="{{ site.baseurl }}/Controversy">Controversy</a></li>
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+          <li><a href="{{ site.baseurl }}/Search">Search</a></li>
+        
+        </ul>
+      </nav>
     </div>
-    <div class="container">
-             {{ content }}
+  </div>
+  <div class="banner"></div>
+  <div class="container">{{ content }}</div>
+
+  <footer>
+    <div class="copy-right">
+      <p>Built by student for Web Technologies class.</p>
+      <p>Copyright © student of King’s College London</p>
     </div>
+  </footer>
 </body>
