@@ -43,11 +43,27 @@ Now the question of ‘Did Marco Polo Go to China’ can be considered settled. 
 ### References
 
 Wood, F. (1996). Did Marco Polo Go to China?. Asian Affairs, 27(3), 296-304.
+
 Schmidt, K. J. (1999). Did Marco Polo Go to China?.
+
 de Rachewiltz, I. (2002). F. Wood's did Marco Polo go to China? A critical appraisal.
+
 Haw, S. G. (2006). Marco Polo's China: a Venetian in the realm of Khubilai Khan. Routledge.
+
 Jackson, P. (1998). Marco Polo and His ‘Travels’1. Bulletin of the School of Oriental and African Studies, 61(1), 82-101.
+
 Vogel, H. U. (2012). Marco Polo was in China: new evidence from currencies, salts and revenues. Brill.
+
 Atwood, C. P. (2015). Marco Polo Was in China, written by Hans Ulrich Vogel. Inner Asia, 17(2), 351-354.
-[https://brill.com/view/title/21884](https://brill.com/view/title/21884)
-[https://en.wikipedia.org/wiki/Did_Marco_Polo_Go_to_China%3F](https://en.wikipedia.org/wiki/Did_Marco_Polo_Go_to_China%3F)
+
+
+<div class="home-books mt">
+<h2>Refrences and further readings</h2>
+{% assign books = site.collection | where:"page-location","controversy" %}
+{% for book in books %}
+  <div class="item">
+    <div class="title"> <a href="{{ book.url }}">{{ book.title }}</a></div>
+    <div class="author">{{ book.auhtor }}</div>
+  </div>
+{% endfor %}
+</div>

@@ -58,14 +58,14 @@ title: KUBLAI
 <p>These held themselves for dead men, for they were without food, and knew not what to do, and they were in great despair when they saw that such of the ships as had escaped the storm were making full sail for their own country256 without the slightest sign of turning back to help them. And this was because of the bitter hatred between the two Barons in command of the force; for the Baron who escaped never showed the slightest desire to return to his colleague who was left upon the Island in the way you have heard; though he might easily have done so after the storm ceased; and it endured not long. He did nothing of the kind, however, but made straight for home. And you must know that the Island to which the soldiers had escaped was uninhabited; there was not a creature upon it but themselves.</p>
 
 ## REFERENCE
-<div id = "collection">
-<ul>
-{% for election in site.data.Kublai %}
-{% assign winner = site.data.Press | find: "article", election.article %}
-<li>{{ election.article }} written by {{ election.author}} is published by {{ winner.press }} in {{ election.year}}</li>
-
-
+<div class="home-books">
+<h2>Refrences and further readings</h2>
+{% assign books = site.collection | where:"page-location","KUBLAI" %}
+{% for book in books %}
+  <div class="item">
+    <div class="title"> <a href="{{ book.url }}">{{ book.title }}</a></div>
+    <div class="author">{{ book.auhtor }}</div>
+  </div>
 {% endfor %}
- </ul>
 </div>
     
