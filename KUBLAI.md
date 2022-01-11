@@ -57,7 +57,7 @@ title: KUBLAI
 <p>You must know that there was much ill-will between those two Barons, so that one would do nothing to help the other. And it came to pass that there arose a north wind which blew with great fury, and caused great damage along the coasts of that Island, for its harbours were few. It blew so hard that the Great Khan’s fleet could not stand against it. And when the chiefs saw that, they came to the conclusion that if the ships remained where they were the whole navy would perish. So they all got on board and made sail to leave the country. But when they had gone about four miles they came to a small Island, on which they were driven ashore in spite of all they could do; and a large part of the fleet was wrecked, and a great multitude of the force perished, so that there escaped only some 30,000 men, who took refuge on this Island.</p>
 <p>These held themselves for dead men, for they were without food, and knew not what to do, and they were in great despair when they saw that such of the ships as had escaped the storm were making full sail for their own country256 without the slightest sign of turning back to help them. And this was because of the bitter hatred between the two Barons in command of the force; for the Baron who escaped never showed the slightest desire to return to his colleague who was left upon the Island in the way you have heard; though he might easily have done so after the storm ceased; and it endured not long. He did nothing of the kind, however, but made straight for home. And you must know that the Island to which the soldiers had escaped was uninhabited; there was not a creature upon it but themselves.</p>
 
-## COLLECTIONS
+## REFERENCE
 <div id = "collection">
 <ul>
 {% for election in site.data.Kublai %}
