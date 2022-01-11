@@ -12,8 +12,8 @@ title: KUBLAI
 <div id = "note">
 <p> “They knelt before him and made obeisance with the utmost humility. The Great Khan bade them rise and received them honorably and entertained them with good cheer. He asked many questions about their condition and how they fared after their departure. The brothers assured him that they had indeed fared well, since they found him well and flourishing. Then they presented the privileges and letters which the Pope had sent, with which he was greatly pleased, and handed over the holy oil, which he received with joy and prized very hightly. When the Great Khan saw Marco, who was then a young stripling, he asked who he was. ‘Sir’ said Messer Niccolo, ‘he is my son and your liege man.’ ‘He is heartly welcome,’ said the Khan. What need to make a long story of it? Great indeed were the mirth and merry-making with which the Great khan and all his Court welcomed the arrival of these emissaries. And they were well served and attended to in all their needs. They stayed at Court and had a place of honor above the other barons.”</p>
 </div>
-<div id= "illustration" >
-<p> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Kublai_Khan_and_His_Empress_Enthroned.jpg" width= 500 height= 400></p>
+<div id= "illustration">
+<p> <img src= "https://upload.wikimedia.org/wikipedia/commons/9/9e/Kublai_Khan_and_His_Empress_Enthroned.jpg" width= 500 height= 400></p>
 
 <p>
 <a href="https://commons.wikimedia.org/wiki/File:Kublai_Khan_and_His_Empress_Enthroned.jpg"> “Kublai Khan and His Empress Enthroned" </a> by Jami (d. 1492), Kesu Kalan</p>
@@ -57,9 +57,17 @@ title: KUBLAI
 <p>You must know that there was much ill-will between those two Barons, so that one would do nothing to help the other. And it came to pass that there arose a north wind which blew with great fury, and caused great damage along the coasts of that Island, for its harbours were few. It blew so hard that the Great Khan’s fleet could not stand against it. And when the chiefs saw that, they came to the conclusion that if the ships remained where they were the whole navy would perish. So they all got on board and made sail to leave the country. But when they had gone about four miles they came to a small Island, on which they were driven ashore in spite of all they could do; and a large part of the fleet was wrecked, and a great multitude of the force perished, so that there escaped only some 30,000 men, who took refuge on this Island.</p>
 <p>These held themselves for dead men, for they were without food, and knew not what to do, and they were in great despair when they saw that such of the ships as had escaped the storm were making full sail for their own country256 without the slightest sign of turning back to help them. And this was because of the bitter hatred between the two Barons in command of the force; for the Baron who escaped never showed the slightest desire to return to his colleague who was left upon the Island in the way you have heard; though he might easily have done so after the storm ceased; and it endured not long. He did nothing of the kind, however, but made straight for home. And you must know that the Island to which the soldiers had escaped was uninhabited; there was not a creature upon it but themselves.</p>
 
-## REFERENCE
+## References
+<div>
+{% for line in site.data.Kublai %}
+
+{% assign row = site.data.Press | find: "article", line.article %}
+<li>{{ line.article}} written by {{ line.author}} was published by {{ row.press}} in {{ line.year}} </li>
+</div>
+
+
 <div class="home-books">
-<h2>Refrences and further readings</h2>
+<h2>Further readings</h2>
 {% assign books = site.collection | where:"page-location","KUBLAI" %}
 {% for book in books %}
   <div class="item">
