@@ -7,7 +7,7 @@ layout: index
 ---
 
 
-<<div id = "macro">
+<div id = "macro">
    {% assign sorted_exhibits = site.exhibit %} 
    {% for exhibit in sorted_exhibits %}
     <div class="item">
