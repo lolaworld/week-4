@@ -63,8 +63,8 @@ title: KUBLAI
 
 {% assign row = site.data.Press | find: "article", line.article %}
 <li>{{ line.article}} written by {{ line.author}} was published by {{ row.press}} in {{ line.year}} </li>
+{% endfor %}
 </div>
-
 
 <div class="home-books">
 <h2>Further readings</h2>
