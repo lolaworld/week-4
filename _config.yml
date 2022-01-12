@@ -2,12 +2,12 @@
 
 title: Macro Polo China Tour
 email: lolawork731@icloud.com
-       monicayang227@163.com
+       k20025130@kcl.ac.uk
        holashea@163.com
 description: >- # this means to ignore newlines until "baseurl:"
   This archive presents users with the wonderful stories of Marco Polo, an outstanding historical figure, traveling in China, and records what he saw and heard in various regions of China. The structure of this website includes introduction to the original works, introduction to Marco Polo, travel stories, disputes and references. This archive is mainly for historians, travel enthusiasts or academic researchers to provide them with valuable digital assets.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://marcopolochinatour.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings
